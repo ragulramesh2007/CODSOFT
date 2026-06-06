@@ -11,7 +11,7 @@ def determine_winner(user, computer):
         return "user"
     return "computer"
 def play_game():
-    print("   ************** WELCOME TO ROCK-PAPER-SCISSORS**************  ")
+    print("   ************** WELCOME TO ROCK-PAPER-SCISSORS **************  ")
     print("Instructions: Type Rock, Paper, or Scissors to play.")
     print("Type 'quit' at any time to end the game.\n")
     user's = 0
@@ -42,7 +42,7 @@ def play_game():
         print("-" * 36)
         if play_again not in ['y', 'yes']:
             break
-    print(" *******************8 FINAL SCORE *******************")
+    print(" ******************* FINAL SCORE *******************")
     print(f" Wins: {user_score} | Losses: {computer_score} | Ties: {ties}")
     if user_score > computer_score:
         print("Congratulations! You beat the computer overall!")
