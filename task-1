@@ -22,7 +22,7 @@ def play_game():
         if user_choice == 'quit':
             break
         if user_choice not in ['rock', 'paper', 'scissors']:
-            print("❌ Invalid input! Please choose Rock, Paper, or Scissors.\n")
+            print("Invalid input! Please choose Rock, Paper, or Scissors.\n")
             continue
         computer_choice = get_computer_choice()
         print(f"\nYou chose: {user_choice.capitalize()}")
@@ -42,7 +42,7 @@ def play_game():
         print("-" * 36)
         if play_again not in ['y', 'yes']:
             break
-    print( *******************8 FINAL SCORE *******************")
+    print(" *******************8 FINAL SCORE *******************")
     print(f" Wins: {user_score} | Losses: {computer_score} | Ties: {ties}")
     if user_score > computer_score:
         print("Congratulations! You beat the computer overall!")
